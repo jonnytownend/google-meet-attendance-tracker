@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Test Chrome Extension",
+  "version": "1.0.0",
+  "description": "This is a sample description",
+  "short_name": "Short Sample Name",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://meet.google.com/*"
+      ],
+      "js": [
+        "node_modules/jquery/dist/jquery.min.js",
+        "src/background.js"
+      ],
+      "css": [
+        "src/background.css"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
