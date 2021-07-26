@@ -15,7 +15,7 @@ const names = [
   "Steve Johnson",
   "Caz Houghton",
   "Rhys Kentish",
-  "Other Person",
+  "Zoe Rockson",
 ].sort()
 
 // Useful Meet elements
