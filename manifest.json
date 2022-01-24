@@ -11,9 +11,11 @@
       ],
       "js": [
         "node_modules/jquery/dist/jquery.min.js",
-        "src/background.js",
+        "src/constants.js",
         "src/data.js",
-        "src/meet-elements.js"
+        "src/util.js",
+        "src/people-list.js",
+        "src/main.js"
       ],
       "css": [
         "src/background.css"
