@@ -17,4 +17,5 @@ const names = [
   "Rhys Kentish",
   "Zoe Rockson",
   "Younes Henni",
+  "Seun Ogundipe",
 ].sort()
